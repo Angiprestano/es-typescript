@@ -32,9 +32,7 @@ console.log('data trovata', data)
       <Card.Img variant="top" src={r.image_url} />
       <Card.Body>
         <Card.Title>{r.title}</Card.Title>
-        <Card.Text>
-          
-        </Card.Text>
+        <Card.Text>{r.published_at}</Card.Text>
         <Button variant="primary">Clicca qui</Button>
       </Card.Body>
     </Card>
